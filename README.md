@@ -11,13 +11,20 @@ The user can perform the following functions:
 * Click on an article and read the full article on the source website.
 ## Installation / Setup instruction
 The application requires the following installations to operate:
+*pyperclip
 *pip
 *flask
 ### Technologies Used
 python 3.8.8
 ### Project Setup Instructions
-* Git clone the repository
-* cd into Flask-News-App
-* create a virtual env
-* activate venv
-* Execute main.py
+* Open Terminal {Ctrl+Alt+T}
+* Fork the repository
+* Git clone https://github.com/Norah-Waswala/news-app.git
+* code . or atom . depending on the text editor of your choice
+## Support and contact details
+For more information, find me at my email (https://norah.waswala15@gmail.com)
+
+## link to live site on heroku pages
+## License and copyright information
+MIT LICENSE
+Copyright (C) [2022] [@ Norah-Waswala]
