@@ -27,19 +27,19 @@ def get_news():
 
 def process_results(news_list):
     news_results=[]
-    for news in news_list:
+    for news_item in news_list:
         
-        author=news.get("author")
-        title=news.get("title")
-        description=news.get("description")
-        urltoImage=news.get("urlToImage")
-        date=news.get("date")
-        content=news.get("content")
-        url=news.get("url")
-        if description and urltoImage:
+        author=news_item.get("author")
+        title=news_item.get("title")
+        description=news_item.get("description")
+        urltoImage=news_item.get("urlToImage")
+        date=news_item.get("publishedAt")
+        content=news_item.get("content")
+        url=news_item.get("url")
+        if  urltoImage:
 
             news_object=News(author,title,description,urltoImage,date,content,url)
 
             news_results.append(news_object)
-            news_results=news_results[:6]
+            # news_results=news_results[:6]
     return news_results
