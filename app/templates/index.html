@@ -10,10 +10,16 @@
     <h1> news app </h1>
     <body>
         <!-- Popular movie section  -->
-        <h3> news</h3>
+        <h3> top news</h3>
          <ul>
             {% for article in articles %}
-                <li>{{ article.title}}</li>
+                <h4>{{article.title}}</h4>
+                <h6>{{article.description}}</h6>
+                <img src="{{article.urlToImage}}" alt="">
+                <div><a  href="">{{article.url}}></a</div>
+                <h6>{{article.author}}</h6>
+                <h6>{{article.id}}</h6>
+                <h6>{{article.name}}</h6>
             {% endfor %}
         </ul>
  </body>
