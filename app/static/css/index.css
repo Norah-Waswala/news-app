@@ -1,0 +1,30 @@
+ .img {
+     height: 200px;
+ }
+
+ @media screen and (min-width:800px) {
+     #message {
+         position: absolute;
+         top: 150px;
+         left: 400px;
+     }
+
+     span {
+         color: rgba(255, 0, 0, 0.425);
+     }
+ }
+ .footer-copyright{
+     color: whitesmoke;
+ }
+ .overlay{
+    height: 50vh;
+    background-color: rgba(216, 86, 86, 0.884);
+    text-align: center;
+  }
+  .overlay p{
+      font-style: italic;
+  }
+  h2{
+      text-align: center;
+      color:rgba(216, 86, 86, 0.884); ;
+  }
